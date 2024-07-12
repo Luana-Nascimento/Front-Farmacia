@@ -11,13 +11,10 @@ function Home() {
               <h2 className='text-5xl font-bold'>Seja bem vindo!</h2>
               <p className='text-xl'>Tudo para sua saúde.</p>
 
-              <div className="flex justify-around gap-4">
-                <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver categorias</button>
-              </div>
             </div>
   
-            <div className="flex justify-center">
-              <img src={homeLogo} alt="Farmácia Logo" className='custom-logo-size' />
+            <div className="flex justify-center image-container">
+              <img src={homeLogo} alt="Farmácia Logo" className='custom-logo-size rounded-logo' />
             </div>
           </div>
         </div>

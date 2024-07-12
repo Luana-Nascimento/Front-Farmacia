@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/categorias" element={<ListaCategorias />} />
-        <Route path="/cadastroCategoria" element={<FormularioCategoria />} />
+        <Route path="/cadastro" element={<FormularioCategoria />} />
         <Route path="/editarCategoria/:id" element={<FormularioCategoria />} />
         <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
       </Routes>

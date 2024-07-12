@@ -1,3 +1,12 @@
 .custom-logo-size {
-    width: 350px;
+    width: 280px;
+    height: 280px;
 }
+
+.image-container {
+    margin-bottom: 30px;
+}  
+
+.rounded-logo {
+    border-radius: 50%;
+  }
